@@ -86,7 +86,7 @@ El DAG `etl_final_delivery` se ejecuta con `schedule_interval="@daily"` y contie
 
 ```
 
-<img width="575" height="698" alt="image" src="https://github.com/user-attachments/assets/94f46535-1b67-4a29-baea-aeeccf04a821" />
+https://github.com/user-attachments/assets/94f46535-1b67-4a29-baea-aeeccf04a821
 
 
 ```

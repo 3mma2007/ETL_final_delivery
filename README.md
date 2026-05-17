@@ -1,4 +1,4 @@
-# ETL Pipeline — Vacunación & Decesos COVID-19 Ecuador
+# ETL Pipeline - Vacunación & Decesos COVID-19 Ecuador
 
 > Proyecto final del curso **ETL (G51)** — Facultad de Ingeniería y Ciencias Básicas  
 > Universidad Autónoma de Occidente · Programa: Ingeniería de Datos e Inteligencia Artificial

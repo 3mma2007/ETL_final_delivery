@@ -52,11 +52,11 @@ https://github.com/user-attachments/assets/fa75ab4c-503e-4e2a-99d3-10d44ffc82a2
 ```
 .
 ├── ETL_final_delivery.ipynb   # Notebook principal: DAG, producer, consumer y lanzamiento del dashboard
+├──ETL_EDA_final_delivery.ipynb #Notebook secundario: Dashboard estatico (construido a partir de los datos almacenados en el DWH) y EDA
 ├── dashboard_rt.py            # App Dash con consumidor Kafka integrado (dashboard en tiempo real)
-├── README.md                  # Este archivo
+├── README.md                  
 ├── .gitignore
-└── docs/
-    └── technical_report.docx  # Documento técnico (arquitectura, pipeline, insights)
+└── technical_report_final_delivery.pdf  # Documento técnico (arquitectura, pipeline, insights, etc)
 ```
 
 ---

@@ -85,15 +85,10 @@ El DAG `etl_final_delivery` se ejecuta con `schedule_interval="@daily"` y contie
 ## Modelo dimensional
 
 ```
-dim_fecha ◄──┐                    ┌──► dim_canton
-             │                    │
-             └── fact_vacunacion ─┤──► dim_provincia
-                                  │
-                                  └──► dim_region
 
-dim_fecha ◄─── fact_decesos
+<img width="575" height="698" alt="image" src="https://github.com/user-attachments/assets/94f46535-1b67-4a29-baea-aeeccf04a821" />
 
-dim_indice_uhc  (tabla independiente por año)
+
 ```
 
 ---

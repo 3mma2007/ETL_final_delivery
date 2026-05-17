@@ -15,7 +15,7 @@ Pipeline ETL completo que integra datos de **vacunación COVID-19 en Ecuador** (
 
 ```
 
-<img width="1013" height="859" alt="image" src="https://github.com/user-attachments/assets/fa75ab4c-503e-4e2a-99d3-10d44ffc82a2" />
+https://github.com/user-attachments/assets/fa75ab4c-503e-4e2a-99d3-10d44ffc82a2
 
 ```
 

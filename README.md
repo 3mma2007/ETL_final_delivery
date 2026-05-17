@@ -34,12 +34,12 @@ Pipeline ETL completo que integra datos de **vacunación COVID-19 en Ecuador** (
 
 | Capa | Herramienta |
 |------|-------------|
-| Orquestación | Apache Airflow 2.11.2 |
+| Orquestación | Apache Airflow |
 | Entorno de ejecución | Google Colab |
 | Almacenamiento | SQLite (DWH) |
 | Fuente externa | Google BigQuery |
-| Calidad de datos | Great Expectations ≥ 1.0 |
-| Streaming | Apache Kafka 3.7.0 (modo KRaft, sin Zookeeper) |
+| Calidad de datos | Great Expectations |
+| Streaming | Apache Kafka (modo KRaft, sin Zookeeper) |
 | Cliente Kafka Python | `confluent-kafka` |
 | Visualización RT | Plotly Dash + Plotly Graph Objects |
 | Túnel público | Cloudflare Tunnel (`cloudflared`) |

@@ -124,7 +124,7 @@ El dashboard se refresca cada **5 segundos** y muestra:
 
 - Cuenta de Google con acceso a Google Colab y Google Drive
 - Proyecto en Google Cloud Platform con BigQuery habilitado
-- El DWH SQLite de la segunda entrega guardado en Google Drive (ruta configurada en el DAG)
+- El DWH SQLite de la segunda entrega guardado en Google Drive (ruta configurada en el DAG y disponible en el repositorio de la entrega previa)
 
 ### Pasos
 

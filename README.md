@@ -157,36 +157,6 @@ Si alguna expectativa falla, la tarea `quality_checks` lanza una excepción y **
 
 ---
 
-## .gitignore recomendado
-
-```gitignore
-# Datos temporales del pipeline
-*.csv
-*.db
-
-# Credenciales y secretos
-*.json
-service_account*.json
-
-# Entornos virtuales
-venv/
-.env
-
-# Artefactos de Jupyter
-.ipynb_checkpoints/
-__pycache__/
-
-# Logs de Airflow
-logs/
-*.log
-
-# Kafka binarios
-kafka_2.13-*/
-cloudflared
-```
-
----
-
 ## Generación de valor
 
 | Proceso | Mecanismo | Valor generado |

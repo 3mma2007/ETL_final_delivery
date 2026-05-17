@@ -95,10 +95,11 @@ https://github.com/user-attachments/assets/94f46535-1b67-4a29-baea-aeeccf04a821
 
 ## Streaming con Kafka
 
-- **Broker**: Kafka 3.7.0 en modo **KRaft** (sin Zookeeper).
+- **Broker**: Kafka en modo **KRaft** (sin Zookeeper).
 - **Tópicos**: `eventos-vacunacion` y `eventos-decesos`.
 - **Producer** (task `kafka_producer` del DAG): itera sobre todas las filas de ambas tablas de hechos y las publica con un delay de 1 ms entre mensajes, simulando un flujo continuo.
-- **Consumer** (integrado en `dashboard_rt.py`): corre en un hilo daemon, suscribiéndose a ambos tópicos y almacenando los mensajes en listas en memoria protegidas por `threading.Lock`.
+- **Consumer** (integrado en `dashboard_rt.py`): corre en daemon, suscribiéndose a ambos tópicos y almacenando los mensajes en listas en memoria protegidas por `threading.Lock`.
+- **Consumer** (Script de Python): Se suscribe a los topicos e imprime los mensajes en consola para verificacion y simulacion del flujo. 
 
 ---
 

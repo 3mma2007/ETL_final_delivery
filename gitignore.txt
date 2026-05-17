@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Variables de entorno
+.env
+*.env
+
+# Google Colab / Drive (datos que no deben subir al repo)
+drive/
+sample_data/
+.config/
+
+# Archivos temporales del ETL (generados en runtime)
+/tmp_*.csv
+/tf_*.csv
+*.db
+
+# Airflow
+airflow/
+*.log
+web.log
+scheduler.log
+tunnel.log
+cloudflared
+
+# Sweetviz / reportes HTML generados
+sweetviz_*.html
+
+# Datos sensibles
+credentials.json
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
